@@ -1,0 +1,17 @@
+{
+  "name": "ws_notification_push_server",
+  "version": "1.0.0",
+  "description": "push notification service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kundan verma",
+  "license": "ISC",
+  "dependencies": {
+    "@parse/node-apn": "^5.1.3",
+    "node-gcm": "^1.0.5",
+    "ws": "^8.13.0"
+  }
+}
